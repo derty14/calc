@@ -22,6 +22,28 @@ margin-left:30%;
 .line {
    display: block;
 }
-.answer {
-  display: inline-block;
+#answer {
+  margin-bottom: 20px;
+}
+input,select {
+  border-radius:  5px;
+  outline:none;
+}
+#sub {
+    padding: 10px 70px  10px 70px;
+    cursor: pointer;
+    text-align: center;
+    border-color: :  white;
+    outline:none;
+    margin-left: 10px;
+}
+#sub:hover {
+  transition: .2s ease-out ;
+  background-color: #ff9800;
+  color: white;
+
+
+}
+form h1 {
+  padding-left: 20px;
 }
